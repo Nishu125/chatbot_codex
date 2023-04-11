@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 import { Configuration, OpenAIApi } from 'openai';
 
-dotenv.config();
+dotenv.config(); 
 
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
@@ -45,4 +45,4 @@ const configuration = new Configuration({
     }
   })
   
-  app.listen(5000, () => console.log('Server is running on port http://localhost:5000'));
+  app.listen(5000, () => console.log('Server is running on port https://codex-0rp6.onrender.com'));
